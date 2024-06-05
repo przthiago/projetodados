@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: przthiago/app-net-lab:latest, przthiago/app-net-lab:${{ github.run_number }}
+          tags: przthiago/app-net-lab:latest, przthiago/app-net-lab:${{ github.run_number }} 
